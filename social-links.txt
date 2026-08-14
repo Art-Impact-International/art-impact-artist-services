@@ -1,0 +1,16 @@
+# Social media links for Art Impact International.
+#
+# To show an icon in the footer, type the web address after the colon.
+# To hide an icon, just leave the line blank (or delete it).
+# Lines that start with # are notes for you and are ignored by the site.
+#
+# Save this file when you're done and the footer will update automatically.
+
+facebook:
+instagram:
+youtube:
+linkedin:
+pinterest:
+tiktok:
+twitter:
+website:
