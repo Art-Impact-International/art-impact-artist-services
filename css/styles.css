@@ -123,9 +123,10 @@ img { max-width: 100%; display: block; }
 
 .hero-full .hero-content {
   padding: 0 24px 64px;
-  max-width: 700px;
+  max-width: var(--max-width);
   margin: 0 auto;
   width: 100%;
+  text-align: left;
 }
 
 .hero-full .eyebrow {
@@ -143,6 +144,7 @@ img { max-width: 100%; display: block; }
   line-height: 1.08;
   color: #ffffff;
   margin: 0 0 16px;
+  max-width: 640px;
 }
 
 .hero-full .tagline {
