@@ -186,6 +186,26 @@ img { max-width: 100%; display: block; }
 
 .btn-outline:hover { border-color: var(--color-accent); color: var(--color-accent); }
 
+.btn-sm { padding: 8px 18px; font-size: 0.8rem; }
+
+.btn-outline-accent {
+  background-color: transparent;
+  border: 1px solid var(--color-accent);
+  color: var(--color-accent);
+}
+
+.btn-outline-accent:hover {
+  background-color: var(--color-accent);
+  color: #ffffff;
+}
+
+.price-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 18px 0;
+}
+
 /* ---- Section-level video slot (above Why / Foundation) ---- */
 .video-slot { margin-bottom: 40px; }
 
@@ -446,6 +466,8 @@ section.alt { background-color: var(--color-surface); }
   padding: 28px;
   text-align: center;
 }
+
+.financing-card .btn { margin-top: 16px; }
 
 .financing-label {
   font-size: 0.8rem;
