@@ -278,6 +278,8 @@ img { max-width: 100%; display: block; }
 /* ---- Sections ---- */
 section { padding: 56px 0; }
 
+section[id] { scroll-margin-top: var(--header-h); }
+
 section.alt { background-color: var(--color-surface); }
 
 .section-title { text-align: center; margin-bottom: 40px; }
@@ -492,6 +494,50 @@ section.alt { background-color: var(--color-surface); }
   text-align: center;
   color: var(--color-text-muted);
   font-size: 0.85rem;
+}
+
+/* ---- Contact form ---- */
+.contact-form {
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-field { margin-bottom: 18px; }
+
+.contact-field label {
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted);
+  margin-bottom: 6px;
+}
+
+.contact-field input,
+.contact-field textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #e5ddd0;
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+.contact-field input:focus,
+.contact-field textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.contact-form .btn { width: 100%; }
+
+.contact-alt {
+  margin-top: 16px;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
 }
 
 /* ---- Footer ---- */
